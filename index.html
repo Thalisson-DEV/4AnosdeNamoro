@@ -97,7 +97,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-image: linear-gradient(rgba(138, 43, 226, 0.23), rgb(0, 0, 0)), url('foto16.jpg');
+            background-image: linear-gradient(rgba(189, 166, 211, 0.23), rgb(0, 0, 0)), url('foto16.jpg');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: cover;
@@ -146,7 +146,7 @@
             border-radius: 10px;
             border-left: 4px solid var(--cor-lilas-claro);
             font-size: 1.1rem;
-            flex-basis: 250px; /* Largura base de cada item */
+            flex-basis: 200px; /* Largura base de cada item */
             text-align: left;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -217,7 +217,7 @@
         }
 
         #notification-popup.show {
-            transform: translate(-50%, 0); /* Move para a posição final */
+            transform: translate(-50%, 0);
             opacity: 1;
         }
 
@@ -227,6 +227,32 @@
             text-align: center;
             color: var(--cor-texto-secundario);
             font-size: 0.9rem;
+        }
+
+        /* === SEÇÃO "O QUE EU AMO EM VOCÊ" === */
+        .motivo-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .motivo-list li {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid var(--cor-lilas-claro);
+            font-size: 1.1rem;
+            flex-basis: 450px; /* Largura base de cada item */
+            text-align: left;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .motivo-list li:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
         }
 
     </style>
@@ -249,20 +275,60 @@
                 <div class="swiper-slide" style="background-image:url('foto4.jpg')"></div>
                 <div class="swiper-slide" style="background-image:url('foto5.jpg')"></div>
                 <div class="swiper-slide" style="background-image:url('foto6.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('foto7.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('foto8.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('foto9.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('foto10.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('foto11.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('foto12.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('foto13.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('foto14.jpg')"></div>
+                <div class="swiper-slide" style="background-image:url('foto15.jpg')"></div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
     </section>
 
-    <section id="motivos" class="container">
-        <h2>Coisinhas que me fazem de amar mais e mais</h2>
+    <section id="teamos" class="container">
+        <h2>Muitos eu te amos para meu amor</h2>
         <ul class="love-list">
-            <li>O jeito que seu sorriso ilumina qualquer lugar.</li>
-            <li>Sua inteligência e o modo como vê o mundo.</li>
-            <li>Seu abraço, que é o meu lugar seguro.</li>
-            <li>Sua força para correr atrás dos seus sonhos.</li>
-            <li>As nossas piadas internas que só a gente entende.</li>
-            <li>Como você me apoia e me faz ser alguém melhor.</li>
+            <li>I love you</li>
+            <li>Eu te amo</li>
+            <li>Je t'aime</li>
+            <li>Ti amo</li>
+            <li>Ich liebe dich</li>
+            <li>Ik hou van jou</li>
+            <li>Jag älskar dig</li>
+            <li>Jeg elsker deg</li>
+            <li>Jeg elsker dig</li>
+            <li>Minä rakastan</li>
+            <li>Σ'αγαπώ</li>
+            <li>Я люблю тебя</li>
+            <li>我爱你</li>
+            <li>愛してる</li>
+            <li>사랑해</li>
+            <li>أح</li>
+            <li>אני אוהב אותך</li>
+            <li>Seni seviyorum</li>
+            <li>Anh yêu em</li>
+            <li>ผมรักคุณ</li>
+        </ul>
+    </section>
+
+    <section id="motivos" class="container">
+        <h2>Coisinhas que me fazem te amar mais e mais</h2>
+        <ul class="motivo-list">
+            <li>O seu jeitinho doidinho</li>
+            <li>Seu cabelo de fogo</li>
+            <li>Sua boxexinha linda ownt mamae da vontade de apertar</li>
+            <li>Seus olhões que igual a eles só tem 1 no mundo todo e é seu</li>
+            <li>Seu sorriso que me tira do serio e da vontade de encher de beijos só de ver</li>
+            <li>O seu respeito por mim e paciencia porque precisa bastante e mesmo sem ter voce tira de algum lugar KKKKKK</li>
+            <li>O jeito como sua voz deixa tudo mais leve e incrivel</li>
+            <li>O seu sorriso invertidinho que é a coisa mais linda do mundo</li>
+            <li>Voce sempre buscar amadurecer, aprender e crescer junto comigo</li>
+            <li>O jeito como voce fica linda de jaleco hehehe</li>
+            <li>Voce ser voce meu amor, é suficiente pra me fazer te querer e amar sempre mais e mais</li>
         </ul>
     </section>
 
